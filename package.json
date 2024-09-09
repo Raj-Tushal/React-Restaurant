@@ -1,5 +1,5 @@
 {
-  "homepage": "https://yourusername.github.io/Restaurant-Menu",
+  "homepage": "https://raj-tushal.github.io/React-Restaurant",
   "name": "pizza-menu",
   "private": true,
   "version": "0.0.0",
@@ -7,9 +7,10 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build"
+    "preview": "vite preview"
   },
   "dependencies": {
     "react": "^18.3.1",
